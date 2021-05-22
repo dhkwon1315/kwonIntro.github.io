@@ -17,19 +17,6 @@ body {
 a {
     text-decoration: none;
 }
-/* CTA */
-.cta {
-    color: white;
-    font-weight: 400;
-    display: block;
-    border-radius: 8px;
-    background: #44b78b;
-}
-.cta:hover {
-    background: #51be95;
-    font-weight: 800;
-    color: black;
-}
 
 /*HEADER*/
 .header {
@@ -49,15 +36,6 @@ a {
     content: "";
     clear: both;
 }
-/* .logo {
-    max-width: 1%;
-    height: auto;
-    margin: 0;
-    padding-left: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    } */
 .nav {
     text-align: center;
 }
@@ -94,14 +72,14 @@ a {
     font-size: 5.0rem;
     line-height: 1.0;
 }
-.hero-cta{
+/* .hero-cta{
     width: 300px;
     margin: 0 auto 60px;
     padding: 20px 50px;
-}
+} */
 /* Main content */
 .main-content {
-    float: left;
+    float: center;
     width: 100%;
     padding-right: 20px;
 }
