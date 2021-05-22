@@ -1,0 +1,100 @@
+/*공통속성*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body {
+    min-width: 1060px;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-family: Roboto, Avenir, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+.header {
+    background: #44b78b;
+    height: 100px;
+    padding: 15px 0 4px;
+}
+.container, 
+.container-float {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 100px;
+    position: relative;
+}
+.container-float::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.nav {
+    text-align: center;
+}
+.list {
+    margin: 0;
+    font-size: 0;
+}
+.list-item {
+    font-weight: 1000;
+    display: inline-block;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+}
+.list-item > a {
+    color: white;
+    display: block;
+    padding: 30px;
+}
+.list-item > a:hover {
+    color: #c9f0dd;
+}
+/*MAIN*/
+/* Hero-section */
+.hero-section {
+    text-align:center;
+    padding: 100px 100px;
+    text-align: center;
+    border-bottom: 1px solid cfe3dc;
+}
+/* Main content */
+.main-content {
+    float: left;
+    width: 100%;
+    padding-right: 20px;
+}
+.main-title {
+    font-weight: 400;
+    margin: 40px 0 20px 0;
+    font-size: 3.2rem;
+    letter-spacing: -1px;
+}
+.main-desc {
+    margin: 0 0 20px 0;
+}
+.p {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 100px;
+    position: relative;
+}
+.photo {
+    /* width: 300px;
+    height: auto; */
+    margin: 100px;
+    /* padding-left: inherit; */
+    position: relative;
+    image-resolution: high;
+    }
+.footer {
+    background: green;
+    clear: both;
+}
